@@ -1,0 +1,24 @@
+{
+    "name": "projectx",
+    "description": "tentando fazer um ddd com php",
+    "authors": [
+        {
+            "name": "Guilherme",
+            "email": "guihgf@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": { "Rest\\":"src/Rest/",
+                   "Controllers\\":"src/Controllers",
+                   "Routes\\":"src/Routes",
+                   "Services\\":"src/Services/",
+                   "Repositories\\": "src/Repositories/",
+                   "Ioc\\":"src/IOC",
+                   "Dice\\":"src/IOC/Dice/"
+
+                 }
+    }
+}
