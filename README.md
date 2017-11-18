@@ -8,3 +8,5 @@ Services - Para integrações com terceiros, lógica de negócios e "meio de cam
 Views
 
 Neste projeto não foi implementada a camada Model, porém encorajo o uso da mesma, por ser base de um projeto MVC, se possível utilizar também um ORM.
+
+Necessário uso de PHP 5.6 devido implementação de IOC neste projeto.
